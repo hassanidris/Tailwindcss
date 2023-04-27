@@ -1,0 +1,14 @@
+{
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./assets/src/input.css -o ./assets/dist/style.css",
+    "watch": "npx tailwindcss -i ./assets/src/input.css -o ./assets/dist/style.css --watch"
+  },
+  "keywords": [],
+  "author": {},
+  "license": "",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
